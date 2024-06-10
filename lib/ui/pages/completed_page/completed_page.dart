@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:todo_list/domain/provider/search_provider.dart';
-import 'package:todo_list/domain/provider/todo_provider.dart';
+// import 'package:provider/provider.dart';
+// import 'package:todo_list/domain/provider/todo_provider.dart';
 import 'package:todo_list/ui/components/card_widget.dart';
 import 'package:todo_list/ui/style/app_colors.dart';
 
@@ -10,7 +9,7 @@ class CompletedPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final model = context.watch<TodoProvider>();
+    // final model = context.watch<TodoProvider>();
 
     return Container(
       color: AppColors.background,

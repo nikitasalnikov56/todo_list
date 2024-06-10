@@ -34,6 +34,7 @@ class TodoProvider extends ChangeNotifier {
     await HiveBox.notes.deleteAt(index);
   }
 
+// новый код
 //редактирование заметки
   Future<void> changeNote(BuildContext context, int index) async {
     final allNotes = HiveBox.notes.values.toList();
